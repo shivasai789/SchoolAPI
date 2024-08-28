@@ -4,11 +4,11 @@ const sha1 = require('sha1');  // Ensure sha1 is required if using it
 
 // Initialize the Sequelize instance correctly
 const db = new Sequelize(
-  'school',       // Database name
-  'root',       // MySQL username
-  '',           // MySQL password
+  'bke0yfbakk3qqmf6z3lx',       // Database name
+  'ulqhgsnuaji96bwq',       // MySQL username
+  'INhxf20szilb5DDkVv0U',           // MySQL password
   {
-    host: 'localhost', // MySQL server host
+    host: 'bke0yfbakk3qqmf6z3lx-mysql.services.clever-cloud.com', // MySQL server host
     dialect: 'mysql',  // Database dialect
   }
 );

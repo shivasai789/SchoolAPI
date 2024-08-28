@@ -16,10 +16,10 @@ app.use(morgan('dev'));
 app.use(helmet());
 
 const connection = mysql.createConnection({
-    host: 'localhost', // Or the IP address/domain of your server
-    user: 'root',
-    password: '',
-    database: 'school'
+    host: 'bke0yfbakk3qqmf6z3lx-mysql.services.clever-cloud.com', // Or the IP address/domain of your server
+    user: 'ulqhgsnuaji96bwq',
+    password: 'INhxf20szilb5DDkVv0U',
+    database: 'bke0yfbakk3qqmf6z3lx'
   });
 
   connection.connect((err) => {
